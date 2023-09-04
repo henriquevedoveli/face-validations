@@ -1,0 +1,31 @@
+app_name: FaceValidator
+version: 1.0
+author: Henrique Vedoveli
+
+Distance: 
+  Min: 30
+  Max: 120
+
+Angle:
+  LeftYawlMax: 15
+  RightYawlMax: 15
+  RollMax: 15
+
+EyesOpen:
+  Min: 0
+  Max: 100
+
+FacialExpression: True
+
+Occlusion: 
+  Threshold: 98
+  ModelPath: "Models/resnet18_occlusion_v02.onnx"
+
+Blur: 
+  Threshold: 98
+
+Liviness: 
+  Threshold: 98
+  
+Camera:
+  CameraIdx: 0
