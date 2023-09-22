@@ -63,7 +63,10 @@ if __name__ == "__main__":
     while True:
         _, frame = camera.read()
         frame, processing_status, is_valid = process_frame(frame)
-        FRAME_WINDOW.image(frame[:, :, ::-1])
+        try:
+            FRAME_WINDOW.image(frame[:, :, ::-1])
+        except:
+            print(frame)
 
         # Update the status and is_valid elements with new values
         status_element.text(f"Processing Status: {processing_status}")
