@@ -13,8 +13,8 @@ class Validator:
         if not self.validations.angle_validator.validate(keypoints):
             return False, 'ANGLE'
         
-        if not self.validations.occlusion_validator.validate(face=face):
-            return False, "OCCLUSION"
+        # if not self.validations.occlusion_validator.validate(face=face):
+        #     return False, "OCCLUSION"
         
         return True, 'OK'
         
