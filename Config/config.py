@@ -1,10 +1,8 @@
 import yaml
 
-# Load the YAML configuration file
 with open('Config/config.yaml', 'r') as config_file:
     config = yaml.safe_load(config_file)
 
-# Access values from the loaded configuration
 app_name = config['app_name']
 version = config['version']
 author = config['author']
