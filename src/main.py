@@ -1,9 +1,9 @@
-from src.Detector.Detector import BoundingBoxDetector, KeypointsDetector
-from src.Detector.Detection import Keypoints, BoundingBox
+from Detector.Detector import BoundingBoxDetector, KeypointsDetector
+from Detector.Detection import Keypoints, BoundingBox
 
-from src.Camera.frameServer import FrameServer
-from src.Validations.Validator import Validator
-from src.Renderer.Render import Render
+from Camera.frameServer import FrameServer
+from Validations.Validator import Validator
+from Renderer.Render import Render
 
 import numpy as np
 import time

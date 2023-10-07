@@ -1,4 +1,4 @@
-from src.main import VideoProcessor
+from main import VideoProcessor
 
 if __name__ == "__main__":
     video_processor = VideoProcessor(render_keypoints=False)

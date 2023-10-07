@@ -1,4 +1,4 @@
-import src.Config.config as config
+import Config.config as config
 import cv2
 
 class Camera:

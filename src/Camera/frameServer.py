@@ -1,6 +1,6 @@
-from src.Camera.Camera import Camera
+from Camera.Camera import Camera
 import threading
-from typing import Optional, Tuple
+from typing import Optional
 
 class FrameServer:
     """

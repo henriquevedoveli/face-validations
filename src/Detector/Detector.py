@@ -19,7 +19,7 @@ class BoundingBoxDetector:
         Returns:
             None
         """
-        self.net: cv2.dnn_Net = cv2.dnn.readNet('Models/deploy.prototxt', 'Models/res10_300x300_ssd_iter_140000_fp16.caffemodel')
+        self.net: cv2.dnn_Net = cv2.dnn.readNet('../Models/deploy.prototxt', '../Models/res10_300x300_ssd_iter_140000_fp16.caffemodel')
     
     def detect_faces(self, frame: cv2.UMat) -> cv2.UMat:
         """
@@ -64,7 +64,7 @@ class KeypointsDetector:
         Returns:
             None
         """
-        self.model_path: str = 'Models/face_landmarker_v2_with_blendshapes.task'
+        self.model_path: str = '../Models/face_landmarker_v2_with_blendshapes.task'
         base_options: python.BaseOptions = python.BaseOptions(model_asset_path=self.model_path)
         options: vision.FaceLandmarkerOptions = vision.FaceLandmarkerOptions(
             base_options=base_options,

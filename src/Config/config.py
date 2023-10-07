@@ -1,9 +1,10 @@
 import yaml
 
-import sys
-sys.path.append('../../')
+import os
 
-with open('config.yaml', 'r') as config_file:
+print(os.path.abspath('.'))
+
+with open('Config/config.yaml', 'r') as config_file:
     config = yaml.safe_load(config_file)
 
 app_name = config['app_name']

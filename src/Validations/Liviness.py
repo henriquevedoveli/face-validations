@@ -1,4 +1,4 @@
-from src.Validations.ValidationTechnique import ValidationTechnique
+from Validations.ValidationTechnique import ValidationTechnique
 
 
 class ValidateLiviness(ValidationTechnique):

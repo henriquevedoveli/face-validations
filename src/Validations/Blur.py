@@ -1,4 +1,4 @@
-from src.Validations.ValidationTechnique import ValidationTechnique
+from Validations.ValidationTechnique import ValidationTechnique
 import cv2
 import traceback
 from typing import Union

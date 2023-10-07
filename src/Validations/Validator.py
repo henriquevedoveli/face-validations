@@ -1,5 +1,5 @@
 
-from src.Validations import *
+from Validations import *
 
 class Validator:
     #TODO ver se é possivel imprlementar a validacao de distancia

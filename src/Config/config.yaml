@@ -19,7 +19,7 @@ FacialExpression: True
 
 Occlusion: 
   Threshold: 98
-  ModelPath: "Models/resnet18_occlusion_v02.onnx"
+  ModelPath: "../Models/resnet18_occlusion_v02.onnx"
 
 Blur: 
   Threshold: 98
