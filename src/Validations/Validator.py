@@ -1,10 +1,11 @@
-import Validations
+
+from src.Validations import *
 
 class Validator:
     #TODO ver se é possivel imprlementar a validacao de distancia
     #TODO implementar a validacao de liviness
     def __init__(self) -> None:
-        self.validations = Validations.Validations()
+        self.validations = Validations()
 
     def validate_face(self, frame, face, keypoints):
         if not self.validations.blur_validator.validate(frame):

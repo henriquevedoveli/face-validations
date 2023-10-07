@@ -5,6 +5,8 @@ import numpy as np
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
+import os
+
 class BoundingBoxDetector:
     """
     A class for detecting bounding boxes around faces in images using a pre-trained deep learning model.

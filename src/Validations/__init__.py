@@ -1,8 +1,8 @@
-from Validations.Angle import ValidateAngle
-from Validations.Blur import ValidateBlur
-from Validations.Distance import ValidateDistance
-from Validations.Liviness import ValidateLiviness
-from Validations.Occlusion import ValidateOcclusion
+from .Angle import ValidateAngle
+from .Blur import ValidateBlur
+from .Distance import ValidateDistance
+from .Liviness import ValidateLiviness
+from .Occlusion import ValidateOcclusion
 
 class Validations:
     def __init__(self) -> None:

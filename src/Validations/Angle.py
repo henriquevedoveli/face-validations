@@ -1,5 +1,5 @@
-from Validations.ValidationTechnique import ValidationTechnique
-from Validations.utils import calculate_distance, calculate_x_distance
+from src.Validations.ValidationTechnique import ValidationTechnique
+from src.Validations.utils import calculate_distance, calculate_x_distance
 
 class ValidateAngle(ValidationTechnique):    
     def validate(self, keypoints):

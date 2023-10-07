@@ -1,4 +1,4 @@
-from Validations.ValidationTechnique import ValidationTechnique
+from src.Validations.ValidationTechnique import ValidationTechnique
 import cv2
 
 
